@@ -29,7 +29,7 @@ html, body, .root, .entry-screen, .home-screen {
     margin: 148px 0 20px;
 }
 
-.entry-screen > h1 {
+.entry-screen > h1, .header > h1 {
     /* width: 68.53%;
     height: auto;
     max-width: 257px;
@@ -40,7 +40,7 @@ html, body, .root, .entry-screen, .home-screen {
     line-height: 45px;
     letter-spacing: -0.012em;
     color: #ffffff;
-    margin-bottom: 37px;
+    /* margin-bottom: 37px; */
 }
 
 .entry-screen > button {
@@ -55,6 +55,7 @@ html, body, .root, .entry-screen, .home-screen {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px; */
+    margin-top: 37px;
     color: #d70900;
 }
 
@@ -63,6 +64,21 @@ html, body, .root, .entry-screen, .home-screen {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+}
+
+.header {
+    width: 255.17px;
+    height: 60px;
+    /* width: 68.05%;
+    max-width: 255.17px; */
+    display: flex;
+    align-items: center;
+}
+
+.header > img {
+    width: 52px;
+    height: 60px;
+    margin-right: 20px;
 }
 
 .footer {
