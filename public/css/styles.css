@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&family=Righteous&family=Roboto:ital@0;1&display=swap");
+
+  /* font-family:  'Recursive', sans-serif; */
+  /* font-family: 'Righteous', cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, .root, .entry-screen, .home-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.entry-screen, .home-screen {
+    background: #FB6B6B;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+  
+.entry-screen > img {
+    width: 36.27%;
+    height: auto;
+    max-width: 136px;
+    max-height: 161px;
+    margin: 148px 0 20px;
+}
+
+.entry-screen > h1 {
+    /* width: 68.53%;
+    height: auto;
+    max-width: 257px;
+    max-height: 59px; */
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    color: #ffffff;
+    margin-bottom: 37px;
+}
+
+.entry-screen > button {
+    width: 65.6%;
+    height: 54px;
+    max-width: 246px;
+    background: #ffffff;
+    border: 1px solid #d70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family:  'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #d70900;
+}
