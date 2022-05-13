@@ -1,0 +1,21 @@
+.question-card, .answer-card{
+  width: 100%;
+  height: 131px;
+  padding: 18px 15px 0;
+  background: #ffffd5;
+  border-radius: inherit;
+  position: relative;
+}
+
+.question-card > p, .answer-card > p {
+  color: #333333;
+  word-break: break-all;
+}
+
+.question-card > img {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: 6px;
+  right: 15px;
+}
