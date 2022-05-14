@@ -14,10 +14,44 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  color: #333333;
+}
+
+ion-icon {
+  font-size: 23px;
 }
 
 ion-icon[name="play-outline"] {
-  font-size: 23px;
   color: #333333;
 }
+
+ion-icon[name="close-circle"] {
+  color:#FF3030;
+}
+
+ion-icon[name="help-circle"] {
+  color: #FF922E;
+}
+
+ion-icon[name="checkmark-circle"] {
+  color: #2FBE34;
+}
+
+.play-outline {
+  color: #333333;
+}
+
+.close-circle {
+  text-decoration: line-through;
+  color:#FF3030;
+}
+
+.help-circle {
+  text-decoration: line-through;
+  color:#FF922E;
+}
+
+.checkmark-circle {
+  text-decoration: line-through;
+  color:#2FBE34;
+}
+

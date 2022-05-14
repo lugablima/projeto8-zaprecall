@@ -1,8 +1,20 @@
+.answer-card {
+  width: 100%;
+  min-height: 131px;
+  height: auto;
+  padding: 18px 15px 6px;
+  background: #ffffd5;
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.answer-card > p {
+  margin-bottom: 5px;
+}
+
 .answer-card > .actions {
-  position: absolute;
-  bottom: 6px;
-  left: 15px;
-  right: 15px;
   display: flex;
   justify-content: space-between;
 }
