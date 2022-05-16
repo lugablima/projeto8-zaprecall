@@ -49,8 +49,6 @@ const cardsTemplate = [
   },
 ];
 
-// let flashCards = cardsTemplate.sort(() => Math.random() - 0.5);
-
 export default function flashCards() {
   return cardsTemplate.sort(() => Math.random() - 0.5);
 };

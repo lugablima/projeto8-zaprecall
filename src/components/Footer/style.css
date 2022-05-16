@@ -19,37 +19,3 @@
 .footer > .icons-result {
   margin-top: 6px;
 }
-
-.footer > .render-congratulations, 
-.footer > .render-putz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 6px 0 14px;
-}
-
-.footer > .render-congratulations > div, 
-.footer > .render-putz > div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 14px;
-}
-
-.footer > .render-congratulations img, 
-.footer > .render-putz img {
-  width: 23px;
-  height: 23px;
-  margin-right: 13px;
-}
-
-.footer > .render-congratulations h5, 
-.footer > .render-putz h5 {
-  font-weight: 700;
-}
-
-.footer > .render-congratulations > p, 
-.footer > .render-putz > p {
-  width: 222px;
-  text-align: center;
-}
-

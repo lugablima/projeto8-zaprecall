@@ -1,9 +1,6 @@
 .header {
-  /* width: 255.17px; */
   width: 235.17px;
   height: 60px;
-  /* width: 68.05%;
-    max-width: 255.17px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,8 +10,4 @@
 .header > img {
   width: 52px;
   height: 60px;
-  /*margin-right: 20px;
-    width: 20.378%;
-    height: 100%;
-    max-width: 52px; */
 }

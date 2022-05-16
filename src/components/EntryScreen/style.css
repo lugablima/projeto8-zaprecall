@@ -6,18 +6,6 @@
   margin-bottom: 20px;
 }
 
-/* .entry-screen > button {
-  width: 65.6%;
-  height: 54px;
-  max-width: 246px;
-  background: #ffffff;
-  border: 1px solid #d70900;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  margin-top: 37px;
-  color: #d70900;
-} */
-
 .entry-screen > input {
   width: 65.6%;
   max-width: 246px;
@@ -32,13 +20,11 @@
   line-height: 16px;
   outline: none;
   color: #FB6B6B;
-  /* opacity: 0.9; */
   background: #ffffff;
 }
 
 .entry-screen > input::placeholder {
   color: #ADADAD;
-  /* opacity: 1; */
 }
 
 .entry-screen > button {
@@ -60,4 +46,3 @@
   color: #C0C0C0;
   border: none;
 }
-

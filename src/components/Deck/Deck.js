@@ -9,5 +9,3 @@ export default function Deck({ cards, setCards, incrementAnswers, icons, setIcon
     </ul>
   );
 }
-
-

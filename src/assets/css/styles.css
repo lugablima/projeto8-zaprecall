@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&family=Righteous&family=Roboto:ital@0;1&display=swap");
 
-/* font-family:  'Recursive', sans-serif; */
-/* font-family: 'Righteous', cursive; */
-/* font-family: 'Roboto', sans-serif; */
-
 * {
   box-sizing: border-box;
 }
@@ -30,10 +26,6 @@ body,
 
 .entry-screen > h1,
 .header > h1 {
-  /* width: 68.53%;
-    height: auto;
-    max-width: 257px;
-    max-height: 59px; */
   font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 36px;
