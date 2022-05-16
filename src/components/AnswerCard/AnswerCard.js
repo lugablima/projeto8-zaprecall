@@ -1,26 +1,5 @@
 import "./style.css";
 
-// export default function AnswerCard({ answer, incrementAnswers, setStatusAnswer, statusAnswer, setStatusCard }) {
-//     function chanceStatusAnswer(newState) {
-//         if(statusAnswer === "play-outline") {
-//             incrementAnswers();
-//             setStatusCard("front");
-//             setStatusAnswer(newState);
-//         }
-//     }
-
-//   return (
-//     <div className="answer-card">
-//       <p>{answer}</p>
-//       <div className="actions">
-//           <button onClick={() => chanceStatusAnswer("close-circle")}>Não lembrei</button>
-//           <button onClick={() => chanceStatusAnswer("help-circle")}> Quase não lembrei</button>
-//           <button onClick={() => chanceStatusAnswer("checkmark-circle")}>Zap!</button>
-//       </div>
-//     </div>
-//   );
-// }
-
 export default function AnswerCard({ questNumber, card, cards, setCards, incrementAnswers, icons, setIcons }) {
   function chanceStatusAnswer(newState) {
       if(card.statusAnswer === "play-outline") {

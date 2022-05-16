@@ -1,28 +1,12 @@
 import { useState } from "react";
 import "./style.css";
 import Header from "../Header/Header";
-import RenderResult from "../RenderResult/RenderResult";
 import Deck from "../Deck/Deck";
 import Footer from "../Footer/Footer";
+import RenderResult from "../RenderResult/RenderResult";
+import CompletedCards from "../CompletedCards/CompletedCards";
+import IconsResult from "../IconsResult/IconsResult";
 import flashCards from "../Deck/flashCards";
-
-// export default function HomeScreen() {
-//     const [qntAnswers, setQntAnswers] = useState(0);
-
-//     function incrementAnswers() {
-//         if(qntAnswers < flashCards.length) {
-//             setQntAnswers(qntAnswers + 1);
-//         }
-//     }
-
-//     return (
-//         <div className="home-screen">
-//             <Header />
-//             <Deck incrementAnswers={incrementAnswers}/>
-//             <Footer qntAnswers={qntAnswers} />
-//         </div>
-//     );
-// }
 
 export default function HomeScreen() {
   const [qntAnswers, setQntAnswers] = useState(0);
@@ -45,10 +29,8 @@ export default function HomeScreen() {
       <Deck cards={cards} setCards={setCards} incrementAnswers={incrementAnswers} icons={icons} setIcons={setIcons} marginBottom={marginBottom} />
       <Footer>
         <RenderResult icons={icons} cards={cards} />
-        <p>
-          {qntAnswers}/{cards.length} CONCLUÍDOS
-        </p>
-        {(icons.length !== 0) ? <div className="icons-result">{icons}</div> : <></>}
+        <CompletedCards qntAnswers={qntAnswers} cards={cards} />
+        <IconsResult icons={icons} />
       </Footer>
     </div>
   );
