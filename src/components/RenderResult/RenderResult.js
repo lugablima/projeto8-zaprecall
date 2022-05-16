@@ -27,12 +27,12 @@ function RenderCongratulations() {
   );
 }
 
-export default function RenderResult({ icons, cards }) {
+export default function RenderResult({ icons, cards, valueInput }) {
   const finished = icons.length === cards.length;
-  const congratulations = cards.some((card) => card.statusAnswer === "close-circle");
+  const congratulations = cards.filter((card) => card.statusAnswer === "checkmark-circle").length >= valueInput;
   return (
     <>
-    {(!finished) ? <></> : (congratulations) ? <RenderPutz /> : <RenderCongratulations />}
+    {(!finished) ? <></> : (congratulations) ? <RenderCongratulations /> : <RenderPutz />}
     </>
     );
 }

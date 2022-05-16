@@ -6,10 +6,12 @@ import HomeScreen from "./HomeScreen/HomeScreen";
 
 export default function App() {
   const [screen, setScreen] = useState("EntryScreen");
+  const [enableButton, setEnableButton] = useState("disable");
+  const [valueInput, setValueInput] = useState();
 
   return (
     <>
-        {screen === "EntryScreen" ? <EntryScreen setScreen={setScreen} /> : <HomeScreen />}
+        {screen === "EntryScreen" ? <EntryScreen setScreen={setScreen} enableButton={enableButton} setEnableButton={setEnableButton} setValueInput={setValueInput} /> : <HomeScreen setScreen={setScreen} setEnableButton={setEnableButton} valueInput={valueInput} setValueInput={setValueInput} />}
     </>
   )
 }

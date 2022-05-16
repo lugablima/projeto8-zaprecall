@@ -1,46 +1,3 @@
-// const flashCards = [
-//     {
-//       questNumber: 1,
-//       question: "O que é JSX?",
-//       answer: "Uma extensão de linguagem do JavaScript."
-//     },
-//     {
-//       questNumber: 2,
-//       question: "O React é __ ",
-//       answer: "Uma biblioteca JavaScript para construção de interfaces."
-//     },
-//     {
-//       questNumber: 3,
-//       question: "Componentes devem iniciar com __",
-//       answer: "Letra maiúscula."
-//     },
-//     {
-//       questNumber: 4,
-//       question: "Podemos colocar __ dentro do JSX",
-//       answer: "Expressões."
-//     },
-//     {
-//       questNumber: 5,
-//       question: "O ReactDOM nos ajuda __ ",
-//       answer: "Interagindo com a DOM para colocar componentes React na mesma."
-//     },
-//     {
-//       questNumber: 6,
-//       question: "Usamos o npm para __",
-//       answer: "Gerenciar os pacotes necessários e suas dependências."
-//     },
-//     {
-//       questNumber: 7,
-//       question: "Usamos props para __",
-//       answer: "Passar diferentes informações para componentes."
-//     },
-//     {
-//       questNumber: 8,
-//       question: "Usamos estado (state) para __",
-//       answer: "Dizer para o React quais informações quando atualizadas devem renderizar a tela novamente."
-//     },
-//   ];
-
 const cardsTemplate = [
   {
     question: "O que é JSX?",
@@ -92,6 +49,8 @@ const cardsTemplate = [
   },
 ];
 
-const flashCards = cardsTemplate.sort(() => Math.random() - 0.5);
+// let flashCards = cardsTemplate.sort(() => Math.random() - 0.5);
 
-export default flashCards;
+export default function flashCards() {
+  return cardsTemplate.sort(() => Math.random() - 0.5);
+};
