@@ -11,11 +11,11 @@ import FlashCard from "../../shared/FlashCard/FlashCard";
 //   );
 // }
 
-export default function Deck({ cards, setCards, incrementAnswers, icons, setIcons }) {
+export default function Deck({ cards, setCards, incrementAnswers, icons, setIcons, marginBottom}) {
   
   
   return (
-    <ul className="deck">
+    <ul className="deck" style={marginBottom}>
       {cards.map((card, index) => (<FlashCard key={index} questNumber={index + 1} card={card} cards={cards} setCards={setCards} incrementAnswers={incrementAnswers} icons={icons} setIcons={setIcons} />))}
     </ul>
   );

@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
-  height: 70px;
+  height: auto;
+  min-height: 70px;
   background: #ffffff;
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
   display: flex;
@@ -12,8 +13,43 @@
   left: 0;
   z-index: 1;
   color: #333333;
+  padding: 9px 0 10px;
 }
 
-.footer > div {
+.footer > .icons-result {
   margin-top: 6px;
 }
+
+.footer > .render-congratulations, 
+.footer > .render-putz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6px 0 14px;
+}
+
+.footer > .render-congratulations > div, 
+.footer > .render-putz > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.footer > .render-congratulations img, 
+.footer > .render-putz img {
+  width: 23px;
+  height: 23px;
+  margin-right: 13px;
+}
+
+.footer > .render-congratulations h5, 
+.footer > .render-putz h5 {
+  font-weight: 700;
+}
+
+.footer > .render-congratulations > p, 
+.footer > .render-putz > p {
+  width: 222px;
+  text-align: center;
+}
+
